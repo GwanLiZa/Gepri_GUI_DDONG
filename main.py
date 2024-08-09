@@ -181,7 +181,7 @@ class Start:
             self.clock.tick(30)
 
         pygame.quit()
-        if self.line >= 0:   
+        if self.line >= 10:   
             return
         else:
             sys.exit()
